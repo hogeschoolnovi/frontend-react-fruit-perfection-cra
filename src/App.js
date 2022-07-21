@@ -6,6 +6,10 @@ import ijsblokjes from './assets/ijsblokjes.jpg';
 import './App.css';
 
 function App() {
+  function logClick() {
+    console.log('You clicked!');
+  }
+
   return (
     <>
       <nav>
@@ -18,7 +22,7 @@ function App() {
       </nav>
       <header>
         <h1>Fruit perfection</h1>
-        <button type="button">
+        <button type="button" onClick={logClick}>
           Shop nu
         </button>
       </header>
