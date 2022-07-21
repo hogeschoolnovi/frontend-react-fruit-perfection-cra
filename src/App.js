@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactComponent as ShoppingCart } from './assets/winkelmandje.svg';
 import citroenen from './assets/citroenen.jpeg';
 import limoenen from './assets/limoenen.png';
 import ijsblokjes from './assets/ijsblokjes.jpg';
@@ -7,6 +8,14 @@ import './App.css';
 function App() {
   return (
     <>
+      <nav>
+        <ul>
+          <li><a href="/">Shop</a></li>
+          <li><a href="/">Ons verhaal</a></li>
+          <li><a href="/">Blog</a></li>
+        </ul>
+        <ShoppingCart className="shopping-cart-icon"/>
+      </nav>
       <header>
         <h1>Fruit perfection</h1>
         <button type="button">
