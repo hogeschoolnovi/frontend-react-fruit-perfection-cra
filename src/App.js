@@ -3,7 +3,6 @@ import './App.css';
 
 function App() {
   return (
-<<<<<<< HEAD
     <>
       <header>
         <h1>Fruit perfection</h1>
@@ -34,11 +33,6 @@ function App() {
         </article>
       </main>
     </>
-=======
-    <main>
-      Begin hier met de tutorial!
-    </main>
->>>>>>> b96d22be16c8f3e85cdee7804510f763ed6c24b9
   );
 }
 
